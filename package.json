@@ -1,5 +1,5 @@
 {
-  "name": "basic-ftp",
+  "name": "doodlemoonch-ftp",
   "version": "4.5.2",
   "description": "FTP client for Node.js, supports explicit FTPS over TLS, IPv6, Async/Await, and Typescript.",
   "main": "dist/index",
@@ -8,7 +8,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "prepublishOnly": "npm run clean && npm run lint && tsc && mocha",
+    "prepublishOnly": "npm run clean && npm run lint && tsc",
     "test": "npm run prepublishOnly",
     "clean": "rimraf dist",
     "lint": "eslint \"./src/**/*.ts\"",
